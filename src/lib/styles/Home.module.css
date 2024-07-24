@@ -1,0 +1,9 @@
+.title {
+	@apply text-center text-[48px];
+}
+
+.main {
+	background-image: url('/smiley.jpg');
+	box-shadow: 0 0 4px #555555;
+	@apply flex relative flex-col w-[600px] h-full min-h-[660px] p-4 rounded-2xl gap-y-2.5;
+}

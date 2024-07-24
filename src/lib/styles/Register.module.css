@@ -1,0 +1,21 @@
+.register {
+	box-shadow: 0 0 3px #666666;
+	@apply flex flex-col w-[480px] mt-32 p-5 rounded-xl bg-white gap-5;
+
+	& h1 {
+		@apply m-auto text-[40px];
+	}
+
+	& form {
+		@apply flex flex-col w-full gap-3;
+	}
+
+	& input {
+		outline: 1px solid #bbbbbb;
+		@apply p-3.5 rounded-md focus:outline-2 focus:outline-[#3f74e7];
+	}
+
+	& .button {
+		@apply ml-auto py-2.5 px-5 bg-[#3f74e7] text-[20px] font-bold text-white;
+	}
+}

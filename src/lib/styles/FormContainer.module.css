@@ -1,0 +1,14 @@
+.form {
+	@apply flex items-center w-full mt-auto h-min gap-3;
+
+	& form { @apply w-full; }
+
+	& input {
+		outline: 1px solid #000000;
+		@apply w-full py-2 px-5 rounded-2xl text-[20px] focus:outline-2;
+	}
+
+	& button {
+		@apply flex flex-none items-center justify-center w-12 aspect-square rounded-full bg-[#e2514c] text-[20px] text-white;
+	}
+}

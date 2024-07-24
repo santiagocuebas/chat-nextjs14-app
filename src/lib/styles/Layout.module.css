@@ -1,0 +1,3 @@
+.main {
+	@apply grid fixed justify-center content-start w-full h-full py-5 bg-[#edf8fa] gap-5;
+}

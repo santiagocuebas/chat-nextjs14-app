@@ -1,0 +1,25 @@
+.message {
+	scrollbar-width: none;
+	@apply flex flex-col-reverse w-full max-h-[700px] p-1.5 overflow-y-auto gap-2.5;
+
+	& div {
+		box-shadow: 0 0 1px #000000;
+		@apply flex flex-wrap w-3/5 h-full p-2 rounded-lg bg-white select-none gap-y-1 z-[100];
+
+		&.me {
+			@apply self-end bg-teal-50 cursor-pointer;
+		}
+	}
+
+	& h3 {
+		@apply w-full font-medium;
+	}
+
+	& p:nth-child(2) {
+		@apply w-full overflow-x-hidden break-words;
+	}
+
+	& p:nth-child(3) {
+		@apply ml-auto text-[14px] text-[#555555];
+	}
+}

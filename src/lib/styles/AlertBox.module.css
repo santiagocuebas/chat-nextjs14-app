@@ -1,0 +1,17 @@
+.alert {
+	@apply flex absolute items-start justify-center w-full h-full top-0 left-0 rounded-2xl bg-black/70 z-[200];
+
+	& div {
+		@apply flex flex-wrap justify-center w-[500px] mt-20 p-5 rounded-xl bg-white gap-2.5;
+	}
+
+	& h3 {
+		@apply w-full text-center text-[32px] font-bold;
+	}
+
+	& button {
+		@apply py-2 px-3 bg-[#2797e2] text-[20px] font-bold text-white;
+
+		&.error { @apply bg-[#e24c27] }
+	}
+}
